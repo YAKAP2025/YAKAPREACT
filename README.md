@@ -5,6 +5,36 @@ Integration of the SpringBud FD 400B Fetal Heart Doppler with the ESP32-S3 (N16R
 
 ---
 
+## Project Team & Agency Information
+
+**Group Number:** BIOE 24-003
+
+**Project Leader:**  
+- **Name:** Elaiza L. Abarentos  
+- **Email:** [21-07489@g.batstate-u.edu.ph](mailto:21-07489@g.batstate-u.edu.ph)  
+- **Contact Number:** 
+
+**Project Staff:**  
+- **Name:** Cate Destiny C. Espeleta  
+  - **Email:** [21-04215@g.batstate-u.edu.ph](mailto:21-04215@g.batstate-u.edu.ph)  
+  - **Contact Number:** 
+
+- **Name:** Sarah M. Palaypayon  
+  - **Email:** [21-02727@g.batstate-u.edu.ph](mailto:21-02727@g.batstate-u.edu.ph)  
+  - **Contact Number:**
+
+**Project Adviser:**  
+- **Name:** Mirasol C. Dilay  
+- **Email:** [dilay.mirasol@g.batstate-u.edu.ph](mailto:dilay.mirasol@g.batstate-u.edu.ph)  
+- **Contact Number:**
+
+**Proponent Agency:**  
+- **Department:** Department of Electronics Engineering  
+- **College:** College of Engineering  
+- **Campus:** Alangilan
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -57,6 +87,4 @@ The system is built on a multi-layered architecture:
 3. **Frontend/Application Layer:**
    - **Web Dashboard:** Developed with ReactJS featuring an ERP-style UI.
    - **Mobile App:** Developed with React Native for cross‑platform access.
-
-### Architecture Diagram
 
