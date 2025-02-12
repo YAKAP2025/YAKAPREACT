@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# YAKAPREACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**YAKAP: A Scalable Cross‑Platform Healthcare Platform**  
+Integration of the SpringBud FD 400B Fetal Heart Doppler with the ESP32-S3 (N16R8 Version) & Node.js Backend (with Firebase Integration)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Overview
 
-### `npm test`
+YAKAP is a comprehensive ERP-style medical management system designed to improve remote antenatal care. This project integrates:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Hardware:** A modified SpringBud FD 400B fetal heart Doppler and an ESP32-S3 microcontroller for real-time fetal heart rate monitoring.
+- **Backend:** A Node.js API that integrates with Firebase for real‑time data storage and synchronization.
+- **Frontend:** A modern ReactJS admin template featuring an ERP-style dashboard, patient profile records, and interactive monitoring charts, along with a cross‑platform mobile app built using React Native.
 
-### `npm run build`
+This system provides healthcare professionals with real-time patient monitoring and management tools, ultimately improving maternal and infant health outcomes in underserved communities.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **ERP-Style Dashboard:** Modern UI with a sidebar and top bar for seamless navigation.
+- **Patient Profiles:** Manage and view detailed patient records including historical data.
+- **Monitoring Charts:** Interactive charts display real-time trends in fetal heart rate.
+- **Real-Time Data:** Firebase integration ensures that data is updated instantly across the platform.
+- **Cross-Platform Compatibility:** Designed for web browsers, iOS, and Android devices (via React Native).
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Architecture
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The system is built on a multi-layered architecture:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Hardware/Device Layer:**
+   - **Sensor:** Modified SpringBud FD 400B fetal heart Doppler (tapped for analog output).
+   - **Microcontroller:** ESP32-S3 (N16R8) reads the analog signal, processes it (peak detection and BPM calculation), and transmits data over WiFi.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Backend/Cloud Layer:**
+   - **API Server:** Node.js server using Express receives sensor data.
+   - **Data Storage:** Firebase (Cloud Firestore or Realtime Database) for real-time data synchronization.
 
-## Learn More
+3. **Frontend/Application Layer:**
+   - **Web Dashboard:** Developed with ReactJS featuring an ERP-style UI.
+   - **Mobile App:** Developed with React Native for cross‑platform access.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Architecture Diagram
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
