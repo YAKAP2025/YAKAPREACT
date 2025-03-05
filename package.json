@@ -79,5 +79,18 @@
     "@iconify/react": "^5.0.2",
     "sass": "^1.71.1",
     "webpack": "^5.90.3"
-  }
+  },
+  "description": "**YAKAP: A Scalable Cross‑Platform Healthcare Platform**   Integration of the SpringBud FD 400B Fetal Heart Doppler with the ESP32-S3 (N16R8 Version) & Node.js Backend (with Firebase Integration)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YAKAP2025/YAKAPREACT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YAKAP2025/YAKAPREACT/issues"
+  },
+  "homepage": "https://github.com/YAKAP2025/YAKAPREACT#readme"
 }
