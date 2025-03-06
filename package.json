@@ -1,5 +1,5 @@
 {
-  "name": "yakapreact",
+  "name": "yakap",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,13 +21,9 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "apexcharts": "^4.3.0",
-    "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
-    "cors": "^2.8.5",
     "datatables.net": "^2.1.8",
     "datatables.net-dt": "^2.1.8",
-    "express": "^4.21.2",
-    "firebase-admin": "^13.2.0",
     "flatpickr": "^4.6.13",
     "highlight.js": "^11.10.0",
     "isotope-layout": "^3.0.6",
@@ -44,7 +40,7 @@
     "react-quill": "^2.0.0",
     "react-quill-new": "^3.3.3",
     "react-router-dom": "^6.22.1",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "5.0.1",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.30.2",
     "react-slider": "^2.0.6",
@@ -81,21 +77,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@iconify/react": "^5.0.2",
-    "nodemon": "^3.1.9",
     "sass": "^1.71.1",
     "webpack": "^5.90.3"
-  },
-  "description": "**YAKAP: A Scalable Cross‑Platform Healthcare Platform**   Integration of the SpringBud FD 400B Fetal Heart Doppler with the ESP32-S3 (N16R8 Version) & Node.js Backend (with Firebase Integration)",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YAKAP2025/YAKAPREACT.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/YAKAP2025/YAKAPREACT/issues"
-  },
-  "homepage": "https://github.com/YAKAP2025/YAKAPREACT#readme"
+  }
 }
