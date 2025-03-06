@@ -11,7 +11,7 @@ const ChatMessageLayer = () => {
                         <img src="assets/images/chat/1.png" alt="image_icon" />
                     </div>
                     <div className="info">
-                        <h6 className="text-md mb-0">Kathryn Murphy</h6>
+                        <h6 className="text-md mb-0">Elaiza L Abarentos </h6>
                         <p className="mb-0">Available</p>
                     </div>
                     <div className="action">
@@ -61,7 +61,7 @@ const ChatMessageLayer = () => {
                             <img src="assets/images/chat/2.png" alt="image_icon" />
                         </div>
                         <div className="info">
-                            <h6 className="text-sm mb-1">Kathryn Murphy</h6>
+                            <h6 className="text-sm mb-1">Elaiza L Abarentos </h6>
                             <p className="mb-0 text-xs">hey! there i'm...</p>
                         </div>
                         <div className="action text-end">
@@ -205,7 +205,7 @@ const ChatMessageLayer = () => {
                             <img src="assets/images/chat/2.png" alt="image_icon" />
                         </div>
                         <div className="info">
-                            <h6 className="text-sm mb-1">Kathryn Murphy</h6>
+                            <h6 className="text-sm mb-1">Elaiza L Abarentos </h6>
                             <p className="mb-0 text-xs">hey! there i'm...</p>
                         </div>
                         <div className="action text-end">
@@ -352,7 +352,7 @@ const ChatMessageLayer = () => {
                         <img src="assets/images/chat/11.png" alt="image_icon" />
                     </div>
                     <div className="info">
-                        <h6 className="text-md mb-0">Kathryn Murphy</h6>
+                        <h6 className="text-md mb-0">Elaiza L Abarentos </h6>
                         <p className="mb-0">Available</p>
                     </div>
                     <div className="action d-inline-flex align-items-center gap-3">

@@ -192,7 +192,7 @@ const TestimonialsLayer = () => {
                   />
                 </div>
                 <div className='d-flex flex-column flex-grow-1'>
-                  <h6 className='text-xl mb-0'>Kathryn Murphy </h6>
+                  <h6 className='text-xl mb-0'>Elaiza L Abarentos  </h6>
                   <span className='text-neutral-500'>Business Man</span>
                 </div>
               </div>

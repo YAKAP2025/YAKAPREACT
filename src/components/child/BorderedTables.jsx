@@ -27,7 +27,7 @@ const BorderedTables = () => {
                                             #526534
                                         </Link>
                                     </td>
-                                    <td>Kathryn Murphy</td>
+                                    <td>Elaiza L Abarentos </td>
                                     <td>25 Jan 2024</td>
                                     <td>$200.00</td>
                                     <td>

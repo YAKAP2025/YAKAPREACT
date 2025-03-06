@@ -183,7 +183,7 @@ const ViewDetailsLayer = () => {
                                         className="icon fs-3 line-height-1"
                                     />
                                 </button>
-                                <h6 className="mb-0 text-lg">Kathryn Murphy</h6>
+                                <h6 className="mb-0 text-lg">Elaiza L Abarentos </h6>
                                 <span className="bg-primary-50 text-primary-600 text-sm radius-4 px-8">
                                     Personal
                                 </span>
@@ -219,7 +219,7 @@ const ViewDetailsLayer = () => {
                                     />
                                     <div className="">
                                         <div className="d-flex align-items-center flex-wrap gap-2">
-                                            <h6 className="mb-0 text-lg">Kathryn Murphy</h6>
+                                            <h6 className="mb-0 text-lg">Elaiza L Abarentos </h6>
                                             <span className="text-secondary-light text-md">
                                                 kathrynmurphy@gmail.com
                                             </span>

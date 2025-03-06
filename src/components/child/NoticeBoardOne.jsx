@@ -44,7 +44,7 @@ const NoticeBoardOne = () => {
                             className="flex-shrink-0 w-40-px h-40-px me-12 radius-8 me-12"
                         />
                         <div className="flex-grow-1">
-                            <h6 className="text-md mb-1 fw-semibold">Kathryn Murphy</h6>
+                            <h6 className="text-md mb-1 fw-semibold">Elaiza L Abarentos </h6>
                             <p className="text-sm text-secondary-light fw-medium mb-1">
                                 Lorem Ipsum is simply dummy text of the printing and typesetting
                                 industry. Lorem Ipsum is simply dummy text of the printing and

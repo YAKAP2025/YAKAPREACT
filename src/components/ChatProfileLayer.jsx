@@ -16,7 +16,7 @@ const ChatProfileLayer = () => {
                         <img src="assets/images/chat/chat-main.png" alt="image_icon" />
                     </div>
                     <div className="text-center">
-                        <h6 className="text-md mb-0">Kathryn Murphy</h6>
+                        <h6 className="text-md mb-0">Elaiza L Abarentos </h6>
                         <p className="mb-0 text-sm">Admin</p>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ const ChatProfileLayer = () => {
                         <img src="assets/images/chat/11.png" alt="image_icon" />
                     </div>
                     <div className="info">
-                        <h6 className="text-md mb-0">Kathryn Murphy</h6>
+                        <h6 className="text-md mb-0">Elaiza L Abarentos </h6>
                         <p className="mb-0">Available</p>
                     </div>
                     <div className="action d-inline-flex align-items-center gap-3">

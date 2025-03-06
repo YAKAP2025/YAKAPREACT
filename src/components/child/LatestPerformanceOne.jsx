@@ -82,7 +82,7 @@ const LatestPerformanceOne = () => {
                                                     </span>
                                                 </div>
                                             </td>
-                                            <td>Kathryn Murphy</td>
+                                            <td>Elaiza L Abarentos </td>
                                             <td>27 Mar 2024</td>
                                             <td>
                                                 {" "}
@@ -405,7 +405,7 @@ const LatestPerformanceOne = () => {
                                                     </span>
                                                 </div>
                                             </td>
-                                            <td>Kathryn Murphy</td>
+                                            <td>Elaiza L Abarentos </td>
                                             <td>27 Mar 2024</td>
                                             <td>
                                                 {" "}

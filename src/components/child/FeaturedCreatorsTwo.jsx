@@ -71,7 +71,7 @@ const FeaturedCreatorsTwo = () => {
                                 className="flex-shrink-0 me-12 w-40-px h-40-px rounded-circle me-12"
                             />
                             <div className="flex-grow-1">
-                                <h6 className="text-md mb-0 fw-semibold">Kathryn Murphy</h6>
+                                <h6 className="text-md mb-0 fw-semibold">Elaiza L Abarentos </h6>
                                 <span className="text-sm text-secondary-light fw-normal">
                                     @kathrynmur
                                 </span>

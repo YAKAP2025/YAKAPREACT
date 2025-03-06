@@ -1569,7 +1569,7 @@ const MasterLayout = ({ children }) => {
                           </span>
                           <div>
                             <h6 className='text-md fw-semibold mb-4'>
-                              Kathryn Murphy
+                              Elaiza L Abarentos 
                             </h6>
                             <p className='mb-0 text-sm text-secondary-light text-w-100-px'>
                               hey! there i’m...
@@ -1599,7 +1599,7 @@ const MasterLayout = ({ children }) => {
                           </span>
                           <div>
                             <h6 className='text-md fw-semibold mb-4'>
-                              Kathryn Murphy
+                              Elaiza L Abarentos 
                             </h6>
                             <p className='mb-0 text-sm text-secondary-light text-w-100-px'>
                               hey! there i’m...
@@ -1629,7 +1629,7 @@ const MasterLayout = ({ children }) => {
                           </span>
                           <div>
                             <h6 className='text-md fw-semibold mb-4'>
-                              Kathryn Murphy
+                              Elaiza L Abarentos 
                             </h6>
                             <p className='mb-0 text-sm text-secondary-light text-w-100-px'>
                               hey! there i’m...
@@ -1659,7 +1659,7 @@ const MasterLayout = ({ children }) => {
                           </span>
                           <div>
                             <h6 className='text-md fw-semibold mb-4'>
-                              Kathryn Murphy
+                              Elaiza L Abarentos 
                             </h6>
                             <p className='mb-0 text-sm text-secondary-light text-w-100-px'>
                               hey! there i’m...
@@ -1689,7 +1689,7 @@ const MasterLayout = ({ children }) => {
                           </span>
                           <div>
                             <h6 className='text-md fw-semibold mb-4'>
-                              Kathryn Murphy
+                              Elaiza L Abarentos 
                             </h6>
                             <p className='mb-0 text-sm text-secondary-light text-w-100-px'>
                               hey! there i’m...

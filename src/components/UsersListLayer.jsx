@@ -106,7 +106,7 @@ const UsersListLayer = () => {
                                         />
                                         <div className="flex-grow-1">
                                             <span className="text-md mb-0 fw-normal text-secondary-light">
-                                                Kathryn Murphy
+                                                Elaiza L Abarentos 
                                             </span>
                                         </div>
                                     </div>
