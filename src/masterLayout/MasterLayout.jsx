@@ -1331,7 +1331,7 @@ const MasterLayout = ({ children }) => {
                   >
                     <img
                       src='assets/images/lang-flag.png'
-                      alt='Wowdash'
+                      alt='YAKAP'
                       className='w-24 h-24 object-fit-cover rounded-circle'
                     />
                   </button>
@@ -1958,7 +1958,7 @@ const MasterLayout = ({ children }) => {
         <footer className='d-footer'>
           <div className='row align-items-center justify-content-between'>
             <div className='col-auto'>
-              <p className='mb-0'>© 2024 WowDash. All Rights Reserved.</p>
+              <p className='mb-0'>© 2025 YAKAP. All Rights Reserved.</p>
             </div>
             <div className='col-auto'>
               <p className='mb-0'>
