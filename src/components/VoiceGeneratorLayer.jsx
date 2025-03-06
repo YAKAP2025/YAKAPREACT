@@ -135,7 +135,7 @@ const VoiceGeneratorLayer = () => {
                                     />
                                 </div>
                                 <div className="info">
-                                    <h6 className="text-lg mb-4">Adam Milner</h6>
+                                    <h6 className="text-lg mb-4">Sarah Palaypayon</h6>
                                     <p className="mb-0 text-secondary-light text-sm">
                                         Alright guys, so I've just seen this website, Fortunanest
                                         website, it's an investment website and you invest there. So I

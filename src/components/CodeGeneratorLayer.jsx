@@ -188,7 +188,7 @@ const CodeGeneratorLayer = () => {
                   />
                 </div>
                 <div className='info flex-grow-1'>
-                  <h6 className='text-lg mb-4'>Adam Milner</h6>
+                  <h6 className='text-lg mb-4'>Sarah Palaypayon</h6>
                   <p className='mb-0 text-secondary-light text-sm'>
                     Please create a 5 Column table with HTML Css and js
                   </p>
@@ -301,7 +301,7 @@ const CodeGeneratorLayer = () => {
                   />
                 </div>
                 <div className='info flex-grow-1'>
-                  <h6 className='text-lg mb-4'>Adam Milner</h6>
+                  <h6 className='text-lg mb-4'>Sarah Palaypayon</h6>
                   <p className='mb-0 text-secondary-light text-sm'>
                     Please create a 5 Column table with HTML Css and js
                   </p>

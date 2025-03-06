@@ -148,7 +148,7 @@ const ImageGeneratorLayer = () => {
                                     />
                                 </div>
                                 <div className="info">
-                                    <h6 className="text-lg mb-4">Adam Milner</h6>
+                                    <h6 className="text-lg mb-4">Sarah Palaypayon</h6>
                                     <p className="mb-0 text-secondary-light text-sm">
                                         Please, Make 4 variant of this image Quickly As Soon As possible{" "}
                                     </p>
@@ -325,7 +325,7 @@ const ImageGeneratorLayer = () => {
                                     />
                                 </div>
                                 <div className="info">
-                                    <h6 className="text-lg mb-4">Adam Milner</h6>
+                                    <h6 className="text-lg mb-4">Sarah Palaypayon</h6>
                                     <p className="mb-0 text-secondary-light text-sm">
                                         Please, Make 4 variant of this image Quickly As Soon As possible{" "}
                                     </p>

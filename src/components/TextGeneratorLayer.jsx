@@ -186,7 +186,7 @@ const TextGeneratorLayer = () => {
                                     />
                                 </div>
                                 <div className="info flex-grow-1">
-                                    <h6 className="text-lg mb-4">Adam Milner</h6>
+                                    <h6 className="text-lg mb-4">Sarah Palaypayon</h6>
                                     <p className="mb-0 text-secondary-light text-sm">
                                         UI/UX Design Roadmap write me the roadmap right now
                                     </p>
@@ -290,7 +290,7 @@ const TextGeneratorLayer = () => {
                                     />
                                 </div>
                                 <div className="info flex-grow-1">
-                                    <h6 className="text-lg mb-4">Adam Milner</h6>
+                                    <h6 className="text-lg mb-4">Sarah Palaypayon</h6>
                                     <p className="mb-0 text-secondary-light text-sm">
                                         UI/UX Design Roadmap write me the roadmap right now
                                     </p>
