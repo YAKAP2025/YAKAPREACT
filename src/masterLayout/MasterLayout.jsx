@@ -1962,7 +1962,7 @@ const MasterLayout = ({ children }) => {
             </div>
             <div className='col-auto'>
               <p className='mb-0'>
-                Made by <span className='text-primary-600'>wowtheme7</span>
+                Made by <span className='text-primary-600'>YAKAP</span>
               </p>
             </div>
           </div>
