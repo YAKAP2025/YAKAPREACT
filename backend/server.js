@@ -1,17 +1,16 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const admin = require('firebase-admin');
+var admin = require("firebase-admin");
 
-const serviceAccount = require('./yakap-project-firebase-adminsdk-fbsvc-f841b81700.json');
+var serviceAccount = require("./yakap-project-firebase-adminsdk-fbsvc-f841b81700.json");
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  //databaseURL: "https://your-firebase-project.firebaseio.com" // Replace with your Firebase URL
+  credential: admin.credential.cert(serviceAccount)
 });
 
 const db = admin.firestore();
-const app = express();
+const app = express();  
 const port = process.env.PORT || 5001;
 
 app.use(cors());
