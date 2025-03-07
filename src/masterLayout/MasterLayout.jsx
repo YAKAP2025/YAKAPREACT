@@ -1823,7 +1823,7 @@ const MasterLayout = ({ children }) => {
                           </span>
                           <div>
                             <h6 className='text-md fw-semibold mb-4'>
-                              Annette Black
+                              Cate Destiny C Espeleta 
                             </h6>
                             <p className='mb-0 text-sm text-secondary-light text-w-200-px'>
                               Invite you to prototyping

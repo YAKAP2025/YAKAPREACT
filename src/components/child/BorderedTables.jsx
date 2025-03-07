@@ -42,7 +42,7 @@ const BorderedTables = () => {
                                             #696589
                                         </Link>
                                     </td>
-                                    <td>Annette Black</td>
+                                    <td>Cate Destiny C Espeleta </td>
                                     <td>25 Jan 2024</td>
                                     <td>$200.00</td>
                                     <td>

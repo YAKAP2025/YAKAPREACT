@@ -175,7 +175,7 @@ const UsersListLayer = () => {
                                         />
                                         <div className="flex-grow-1">
                                             <span className="text-md mb-0 fw-normal text-secondary-light">
-                                                Annette Black
+                                                Cate Destiny C Espeleta 
                                             </span>
                                         </div>
                                     </div>

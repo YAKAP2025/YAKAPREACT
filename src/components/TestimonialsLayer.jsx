@@ -148,7 +148,7 @@ const TestimonialsLayer = () => {
                   />
                 </div>
                 <div className='d-flex flex-column flex-grow-1'>
-                  <h6 className='text-xl mb-0'>Annette Black</h6>
+                  <h6 className='text-xl mb-0'>Cate Destiny C Espeleta </h6>
                   <span className='text-neutral-500'>UX/UI Designer</span>
                 </div>
               </div>
