@@ -45,7 +45,7 @@ const TopPerformanceOne = () => {
                                     className="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden"
                                 />
                                 <div className="flex-grow-1">
-                                    <h6 className="text-md mb-0">Wade Warren</h6>
+                                    <h6 className="text-md mb-0">Elaiza L. Abarentos </h6>
                                     <span className="text-sm text-secondary-light fw-medium">
                                         Agent ID: 36254
                                     </span>
@@ -61,7 +61,7 @@ const TopPerformanceOne = () => {
                                     className="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden"
                                 />
                                 <div className="flex-grow-1">
-                                    <h6 className="text-md mb-0">Albert Flores</h6>
+                                    <h6 className="text-md mb-0">Sarah M. Palaypayon  </h6>
                                     <span className="text-sm text-secondary-light fw-medium">
                                         Agent ID: 36254
                                     </span>
@@ -77,7 +77,7 @@ const TopPerformanceOne = () => {
                                     className="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden"
                                 />
                                 <div className="flex-grow-1">
-                                    <h6 className="text-md mb-0">Bessie Cooper</h6>
+                                    <h6 className="text-md mb-0">Mirasol C. Dilay  </h6>
                                     <span className="text-sm text-secondary-light fw-medium">
                                         Agent ID: 36254
                                     </span>
@@ -93,7 +93,7 @@ const TopPerformanceOne = () => {
                                     className="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden"
                                 />
                                 <div className="flex-grow-1">
-                                    <h6 className="text-md mb-0">Arlene McCoy</h6>
+                                    <h6 className="text-md mb-0">Sarah M. Palaypayon  </h6>
                                     <span className="text-sm text-secondary-light fw-medium">
                                         Agent ID: 36254
                                     </span>
@@ -109,7 +109,7 @@ const TopPerformanceOne = () => {
                                     className="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden"
                                 />
                                 <div className="flex-grow-1">
-                                    <h6 className="text-md mb-0">Arlene McCoy</h6>
+                                    <h6 className="text-md mb-0">Sarah M. Palaypayon  </h6>
                                     <span className="text-sm text-secondary-light fw-medium">
                                         Agent ID: 36254
                                     </span>

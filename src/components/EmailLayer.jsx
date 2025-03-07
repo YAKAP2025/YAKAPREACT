@@ -699,7 +699,7 @@ const EmailLayer = () => {
                                     to="/view-details"
                                     className="text-primary-light fw-medium text-md text-line-1 w-190-px"
                                 >
-                                    Bessie Cooper
+                                    Mirasol C. Dilay  
                                 </Link>
                                 <Link
                                     to="/view-details"
@@ -779,7 +779,7 @@ const EmailLayer = () => {
                                     to="/view-details"
                                     className="text-primary-light fw-medium text-md text-line-1 w-190-px"
                                 >
-                                    Wade Warren
+                                    Elaiza L. Abarentos 
                                 </Link>
                                 <Link
                                     to="/view-details"

@@ -117,7 +117,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Wade Warren
+                                                            Elaiza L. Abarentos 
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             xterris@gmail.com
@@ -143,7 +143,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Albert Flores
+                                                            Sarah M. Palaypayon  
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             seannand@mail.ru
@@ -169,7 +169,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Bessie Cooper{" "}
+                                                            Mirasol C. Dilay  {" "}
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             igerrin@gmail.com
@@ -195,7 +195,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Arlene McCoy
+                                                            Sarah M. Palaypayon  
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             fellora@mail.ru
@@ -271,7 +271,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Wade Warren
+                                                            Elaiza L. Abarentos 
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             xterris@gmail.com
@@ -297,7 +297,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Albert Flores
+                                                            Sarah M. Palaypayon  
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             seannand@mail.ru
@@ -323,7 +323,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Bessie Cooper{" "}
+                                                            Mirasol C. Dilay  {" "}
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             igerrin@gmail.com
@@ -349,7 +349,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Arlene McCoy
+                                                            Sarah M. Palaypayon  
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             fellora@mail.ru

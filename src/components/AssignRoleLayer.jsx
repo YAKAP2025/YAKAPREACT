@@ -552,7 +552,7 @@ const AssignRoleLayer = () => {
                                         />
                                         <div className="flex-grow-1">
                                             <span className="text-md mb-0 fw-normal text-secondary-light">
-                                                Albert Flores
+                                                Sarah M. Palaypayon  
                                             </span>
                                         </div>
                                     </div>

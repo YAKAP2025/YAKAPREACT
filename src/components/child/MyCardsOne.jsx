@@ -56,7 +56,7 @@ const MyCardsOne = () => {
                                                     Name
                                                 </span>
                                                 <h6 className="text-white text-xl fw-semibold mb-0">
-                                                    Arlene McCoy
+                                                    Sarah M. Palaypayon  
                                                 </h6>
                                             </div>
                                             <div>
@@ -95,7 +95,7 @@ const MyCardsOne = () => {
                                                     Name
                                                 </span>
                                                 <h6 className="text-white text-xl fw-semibold mb-0">
-                                                    Arlene McCoy
+                                                    Sarah M. Palaypayon  
                                                 </h6>
                                             </div>
                                             <div>
@@ -134,7 +134,7 @@ const MyCardsOne = () => {
                                                     Name
                                                 </span>
                                                 <h6 className="text-white text-xl fw-semibold mb-0">
-                                                    Arlene McCoy
+                                                    Sarah M. Palaypayon  
                                                 </h6>
                                             </div>
                                             <div>

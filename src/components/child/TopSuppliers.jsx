@@ -47,7 +47,7 @@ const TopSuppliers = () => {
                     <span className='text-secondary-light'>2</span>
                   </td>
                   <td>
-                    <span className='text-secondary-light'>Wade Warren</span>
+                    <span className='text-secondary-light'>Elaiza L. Abarentos </span>
                   </td>
                   <td>
                     <span className='text-secondary-light'>$40,00.00</span>

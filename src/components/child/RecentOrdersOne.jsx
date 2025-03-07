@@ -68,7 +68,7 @@ const RecentOrdersOne = () => {
                                                 className="flex-shrink-0 me-12 radius-8"
                                             />
                                             <span className="text-lg text-secondary-light fw-semibold flex-grow-1">
-                                                Wade Warren
+                                                Elaiza L. Abarentos 
                                             </span>
                                         </div>
                                     </td>
@@ -92,7 +92,7 @@ const RecentOrdersOne = () => {
                                                 className="flex-shrink-0 me-12 radius-8"
                                             />
                                             <span className="text-lg text-secondary-light fw-semibold flex-grow-1">
-                                                Albert Flores
+                                                Sarah M. Palaypayon  
                                             </span>
                                         </div>
                                     </td>
@@ -116,7 +116,7 @@ const RecentOrdersOne = () => {
                                                 className="flex-shrink-0 me-12 radius-8"
                                             />
                                             <span className="text-lg text-secondary-light fw-semibold flex-grow-1">
-                                                Bessie Cooper
+                                                Mirasol C. Dilay  
                                             </span>
                                         </div>
                                     </td>
@@ -140,7 +140,7 @@ const RecentOrdersOne = () => {
                                                 className="flex-shrink-0 me-12 radius-8"
                                             />
                                             <span className="text-lg text-secondary-light fw-semibold flex-grow-1">
-                                                Arlene McCoy
+                                                Sarah M. Palaypayon  
                                             </span>
                                         </div>
                                     </td>
