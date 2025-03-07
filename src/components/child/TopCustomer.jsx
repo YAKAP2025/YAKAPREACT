@@ -97,7 +97,7 @@ const TopCustomer = () => {
                     <span className='text-secondary-light'>6</span>
                   </td>
                   <td>
-                    <span className='text-secondary-light'>Dianne Russell</span>
+                    <span className='text-secondary-light'>Cate Destiny C Espeleta </span>
                   </td>
                   <td>
                     <span className='text-secondary-light'>$80,00.00</span>

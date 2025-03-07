@@ -44,7 +44,7 @@ const RecentOrdersOne = () => {
                                                 className="flex-shrink-0 me-12 radius-8"
                                             />
                                             <span className="text-lg text-secondary-light fw-semibold flex-grow-1">
-                                                Dianne Russell
+                                                Cate Destiny C Espeleta 
                                             </span>
                                         </div>
                                     </td>

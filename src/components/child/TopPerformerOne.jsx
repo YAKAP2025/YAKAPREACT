@@ -29,7 +29,7 @@ const TopPerformerOne = () => {
                                     className="w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden"
                                 />
                                 <div className="flex-grow-1">
-                                    <h6 className="text-md mb-0 fw-medium">Dianne Russell</h6>
+                                    <h6 className="text-md mb-0 fw-medium">Cate Destiny C Espeleta </h6>
                                     <span className="text-sm text-secondary-light fw-medium">
                                         Agent ID: 36254
                                     </span>

@@ -91,7 +91,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Dianne Russell
+                                                            Cate Destiny C Espeleta 
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             redaniel@gmail.com
@@ -245,7 +245,7 @@ const LatestRegisteredOne = () => {
                                                     />
                                                     <div className="flex-grow-1">
                                                         <h6 className="text-md mb-0 fw-medium">
-                                                            Dianne Russell
+                                                            Cate Destiny C Espeleta 
                                                         </h6>
                                                         <span className="text-sm text-secondary-light fw-medium">
                                                             redaniel@gmail.com

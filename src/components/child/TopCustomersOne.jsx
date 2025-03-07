@@ -29,7 +29,7 @@ const TopCustomersOne = () => {
                                     className="w-40-px h-40-px radius-8 flex-shrink-0"
                                 />
                                 <div className="flex-grow-1">
-                                    <h6 className="text-md mb-0 fw-normal">Dianne Russell</h6>
+                                    <h6 className="text-md mb-0 fw-normal">Cate Destiny C Espeleta </h6>
                                     <span className="text-sm text-secondary-light fw-normal">
                                         017******58
                                     </span>

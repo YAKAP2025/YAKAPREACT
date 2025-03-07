@@ -690,7 +690,7 @@ const UsersGridLayer = () => {
                                     alt=""
                                     className="border br-white border-width-2-px w-100-px h-100-px rounded-circle object-fit-cover"
                                 />
-                                <h6 className="text-lg mb-0 mt-4">Dianne Russell</h6>
+                                <h6 className="text-lg mb-0 mt-4">Cate Destiny C Espeleta </h6>
                                 <span className="text-secondary-light mb-16">
                                     ifrandom@gmail.com
                                 </span>

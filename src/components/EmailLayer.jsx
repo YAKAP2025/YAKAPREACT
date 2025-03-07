@@ -499,7 +499,7 @@ const EmailLayer = () => {
                                     to="/view-details"
                                     className="text-primary-light fw-medium text-md text-line-1 w-190-px"
                                 >
-                                    Dianne Russell
+                                    Cate Destiny C Espeleta 
                                 </Link>
                                 <Link
                                     to="/view-details"
@@ -619,7 +619,7 @@ const EmailLayer = () => {
                                     to="/view-details"
                                     className="text-primary-light fw-medium text-md text-line-1 w-190-px"
                                 >
-                                    Dianne Russell
+                                    Cate Destiny C Espeleta 
                                 </Link>
                                 <Link
                                     to="/view-details"
