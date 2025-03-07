@@ -22,3 +22,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 yakap-project-firebase-adminsdk-fbsvc-a0269a0ccf.json
+backend/node_modules/.package-lock.json

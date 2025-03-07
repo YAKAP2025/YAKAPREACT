@@ -3,7 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const admin = require('firebase-admin');
 
-const serviceAccount = require('./yakap-project-firebase-adminsdk-fbsvc-a0269a0ccf.json');
+const serviceAccount = require('./yakap-project-firebase-adminsdk-fbsvc-6db2a3d645.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
