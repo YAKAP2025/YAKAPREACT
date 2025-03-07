@@ -30,7 +30,7 @@ const TopPerformanceTwo = () => {
                   className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                 />
                 <div className='flex-grow-1'>
-                  <h6 className='text-md mb-0'>Dr. Davis</h6>
+                  <h6 className='text-md mb-0'>MD PHD Sarah Palaypayon</h6>
                   <span className='text-sm text-secondary-light fw-medium'>
                     Cardiology
                   </span>
@@ -48,7 +48,7 @@ const TopPerformanceTwo = () => {
                   className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                 />
                 <div className='flex-grow-1'>
-                  <h6 className='text-md mb-0'>Dr. Riead</h6>
+                  <h6 className='text-md mb-0'>MD PHD Cate Destiny C. Espeleta</h6>
                   <span className='text-sm text-secondary-light fw-medium'>
                     Orthopedics
                   </span>
@@ -84,7 +84,7 @@ const TopPerformanceTwo = () => {
                   className='w-40-px h-40-px rounded-circle flex-shrink-0 me-12 overflow-hidden'
                 />
                 <div className='flex-grow-1'>
-                  <h6 className='text-md mb-0'>Dr. Smith</h6>
+                  <h6 className='text-md mb-0'>MD PHD Elaiza L. Abarentos </h6>
                   <span className='text-sm text-secondary-light fw-medium'>
                     Cardiology
                   </span>
