@@ -7,7 +7,7 @@ const BPMChartLine = () => {
   const [chartData, setChartData] = useState({
     series: [{
       name: 'BPM',
-      data: [] // Format: [timestamp, bpm]
+      data: [] // Each point in format: [timestamp, bpm]
     }],
     options: {
       chart: {
@@ -17,7 +17,7 @@ const BPMChartLine = () => {
           enabled: true,
           easing: 'linear',
           dynamicAnimation: {
-            speed: 1000, // Smoother scrolling effect
+            speed: 1000,
           },
         },
         toolbar: { show: false },
@@ -28,7 +28,7 @@ const BPMChartLine = () => {
         curve: 'smooth',
         width: 2,
       },
-      colors: ['green'], // Default color (normal BPM)
+      colors: ['green'], // Default color is green (normal BPM)
       xaxis: {
         type: 'datetime',
         labels: { datetimeUTC: false },
@@ -45,7 +45,7 @@ const BPMChartLine = () => {
     }
   });
 
-  // Function to determine the line color based on BPM value
+  // Helper function to determine the line color based on BPM reading
   const getLineColor = (bpm) => {
     if (bpm < 60) return 'blue';
     if (bpm > 100) return 'red';
@@ -55,23 +55,27 @@ const BPMChartLine = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Fetch the latest BPM data from your backend
-        const response = await axios.get('http://localhost:5001/api/getData');
-        if (response.data && response.data.length > 0) {
-          const newDataPoint = response.data[0]; // Latest reading
+        // Adjust the URL to match your backend IP/port
+        const response = await axios.get('http://192.168.0.197:5001/api/getData');
+        // Since our backend returns an object, check for bpm property:
+        if (response.data && response.data.bpm) {
+          const newDataPoint = response.data;
           const bpmValue = newDataPoint.bpm;
           setLatestBPM(bpmValue);
+          // Create a new point: [timestamp (ms), bpm]
           const point = [new Date(newDataPoint.timestamp).getTime(), bpmValue];
+
+          // Update the chartData: append new point and keep only the last 20 values.
           setChartData(prevData => {
             const currentData = prevData.series[0].data;
-            // Append new point and keep only the last 20 points for scrolling effect
             const updatedData = [...currentData, point].slice(-20);
+
             return {
               ...prevData,
               series: [{ name: 'BPM', data: updatedData }],
               options: {
                 ...prevData.options,
-                colors: [getLineColor(bpmValue)], // Update line color dynamically
+                colors: [getLineColor(bpmValue)]
               },
             };
           });
@@ -82,7 +86,7 @@ const BPMChartLine = () => {
     };
 
     fetchData();
-    const intervalId = setInterval(fetchData, 1000); // Update every 1 second
+    const intervalId = setInterval(fetchData, 1000); // Poll every 1 second
     return () => clearInterval(intervalId);
   }, []);
 

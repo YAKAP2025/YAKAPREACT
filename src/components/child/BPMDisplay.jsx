@@ -7,9 +7,11 @@ const BPMDisplay = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5001/api/getData');
-        if (response.data.length > 0) {
-          setLatestBPM(response.data[0].bpm);
+        // Replace with your actual IP address, not localhost.
+        const response = await axios.get('http://192.168.0.197:5001/api/getData');
+        // Check if response.data has the bpm property.
+        if (response.data && response.data.bpm) {
+          setLatestBPM(response.data.bpm);
         }
       } catch (error) {
         console.error('Error fetching BPM:', error);

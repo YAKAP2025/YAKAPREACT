@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactApexChart from "react-apexcharts";
 import axios from "axios";
 
-// Define a maximum BPM threshold for the donut representation.
+// Maximum value for the BPM range (donut chart total)
 const MAX_BPM = 250;
 
 const BPMDonut = () => {
   const [bpm, setBpm] = useState(0);
 
-  // This state holds the chart configuration
   const [chartData, setChartData] = useState({
-    series: [0, MAX_BPM], // The first slice is current BPM, the second slice is "remaining"
+    series: [0, MAX_BPM], // First slice: current BPM; second slice: the remaining range
     options: {
       chart: {
         type: "donut",
@@ -22,8 +21,7 @@ const BPMDonut = () => {
         },
         toolbar: { show: false },
       },
-      // We’ll dynamically update the colors array in useEffect
-      colors: ["green", "#E2E2E2"],
+      colors: ["green", "#E2E2E2"], // Dynamic color updated based on BPM
       labels: ["Current BPM", "Remaining Range"],
       plotOptions: {
         pie: {
@@ -32,10 +30,9 @@ const BPMDonut = () => {
               show: true,
               total: {
                 show: true,
-                // This label is displayed in the donut center
                 label: "BPM",
                 formatter: function (w) {
-                  // w.globals.series[0] is the first slice (our BPM)
+                  // w.globals.series[0] holds our current BPM value
                   return w.globals.series[0].toFixed(0);
                 },
               },
@@ -43,47 +40,37 @@ const BPMDonut = () => {
           },
         },
       },
-      legend: {
-        show: true,
-        position: "bottom",
-      },
-      stroke: {
-        width: 1,
-      },
+      legend: { show: true, position: "bottom" },
+      stroke: { width: 1 },
       tooltip: {
         y: {
-          formatter: function (val) {
-            return val.toFixed(0) + " BPM";
-          },
+          formatter: (val) => val.toFixed(0) + " BPM",
         },
       },
-      // We'll configure the y-axis logic in the slice values, so xaxis not needed for a donut
     },
   });
 
-  // Function to determine the donut color based on BPM
+  // Function to determine the line color based on the BPM value
   const getBpmColor = (value) => {
-    if (value < 60) return "blue";   // Dangerously low
-    if (value > 100) return "red";   // Dangerously high
-    return "green";                  // Normal
+    if (value < 60) return "blue";   // Dangerously low BPM → blue
+    if (value > 100) return "red";   // Dangerously high BPM → red
+    return "green";                  // Normal BPM → green
   };
 
   useEffect(() => {
-    // Fetch the BPM data from your backend
     const fetchBpm = async () => {
       try {
-        const response = await axios.get("http://localhost:5001/api/getData");
-        if (response.data && response.data.length > 0) {
-          // Assume the latest reading is the first object
-          const newData = response.data[0];
-          const currentBpm = newData.bpm;
+        // Use your server's IP address (not localhost on a physical ESP32)
+        const response = await axios.get("http://192.168.0.197:5001/api/getData");
+        // Check if the response data contains a bpm property
+        if (response.data && response.data.bpm) {
+          const currentBpm = response.data.bpm;
           setBpm(currentBpm);
 
-          // Our series: [currentBpm, MAX_BPM - currentBpm]
-          // The second slice represents the "remaining" portion of the donut
+          // Update the series: first slice is current BPM, the second is MAX_BPM minus current BPM
           const updatedSeries = [
             currentBpm,
-            Math.max(MAX_BPM - currentBpm, 0), // Ensure it doesn't go negative
+            Math.max(MAX_BPM - currentBpm, 0)
           ];
 
           setChartData((prev) => ({
@@ -101,7 +88,7 @@ const BPMDonut = () => {
     };
 
     fetchBpm();
-    // Poll every 3 seconds for new data
+    // Fetch new BPM data every 3 seconds
     const intervalId = setInterval(fetchBpm, 3000);
     return () => clearInterval(intervalId);
   }, []);

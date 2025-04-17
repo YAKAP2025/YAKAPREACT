@@ -1,46 +1,34 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-var admin = require("firebase-admin");
 
-var serviceAccount = require("./yakap-project-firebase-adminsdk-fbsvc-51348aae9c.json");
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
-
-const db = admin.firestore();
-const app = express();  
+const app = express();
 const port = process.env.PORT || 5001;
 
 app.use(cors());
 app.use(bodyParser.json());
 
-app.post('/api/submitData', async (req, res) => {
+// Global in-memory variable to store the latest sensor data
+let latestSensorData = null;
+
+// Endpoint to receive sensor data from the device
+app.post('/api/submitData', (req, res) => {
   const data = req.body;
   data.timestamp = new Date().toISOString();
-  try {
-    await db.collection('sensorData').add(data);
-    console.log('Received data:', data);
-    res.status(200).json({ status: 'success', data });
-  } catch (error) {
-    console.error('Error writing to Firestore:', error);
-    res.status(500).json({ status: 'error', error: error.message });
-  }
+  
+  // Store the sensor data directly in memory
+  latestSensorData = data;
+  
+  console.log('Received sensor data:', data);
+  res.status(200).json({ status: 'success', data });
 });
 
-app.get('/api/getData', async (req, res) => {
-  try {
-    const snapshot = await db.collection('sensorData')
-      .orderBy('timestamp', 'desc')
-      .limit(20)
-      .get();
-    const sensorData = snapshot.docs.map(doc => doc.data());
-    res.status(200).json(sensorData);
-  } catch (error) {
-    console.error('Error fetching data:', error);
-    res.status(500).json({ status: 'error', error: error.message });
+// Endpoint to retrieve the latest sensor data
+app.get('/api/getData', (req, res) => {
+  if (!latestSensorData) {
+    return res.status(404).json({ status: 'error', error: 'No sensor data available' });
   }
+  res.status(200).json(latestSensorData);
 });
 
 app.listen(port, () => {
