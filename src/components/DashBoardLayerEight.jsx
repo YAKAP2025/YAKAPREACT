@@ -3,15 +3,15 @@ import BPMDisplay from "./child/BPMDisplay"; // Optional simple BPM card / updat
 import BPMChartLine from "./child/BPMChartLine"; // Option 1: Line chart / updated for FECG V2
 import ECGWaveformChart from "./child/ECGWaveformChart"; // Option 2: Area chart / updated for FECG V2
 import BPMDonut from "./child/BPMDonut"; // The new donut-based BPM chart / updated for FECG V2
-import UnitCountSix from "./child/UnitCountSix";
-import EarningStatistic from "./child/EarningStatistic";
+import BPMMetricsOverview from "./child/BPMMetricsOverview";
+import BPMStatistic from "./child/BPMStatistic";
 import PatientVisitedDepartment from "./child/PatientVisitedbyDepartment";
 import PatientVisitByGender from "./child/PatientVisitByGender";
 import TopPerformanceTwo from "./child/TopPerformanceTwo";
 import LatestAppointmentsOne from "./child/LatestAppointmentsOne";
 //import TotalIncome from "./child/TotalIncome";
 import Last24hBPM from "./child/Last24hBPM";
-import HealthReportsDocument from "./child/HealthReportsDocument";
+import BPMSummaryReports from "./child/BPMSummaryReports";
 
 const DashBoardLayerEight = () => {
   return (
@@ -26,8 +26,8 @@ const DashBoardLayerEight = () => {
             {
             <ECGWaveformChart />
             }
-            <UnitCountSix />
-            <EarningStatistic />
+            <BPMMetricsOverview />
+            <BPMStatistic />
             <PatientVisitedDepartment />
             <PatientVisitByGender />
             <TopPerformanceTwo />
@@ -38,7 +38,7 @@ const DashBoardLayerEight = () => {
           <div className="row gy-4">
             <BPMDonut  />
             <Last24hBPM />
-            <HealthReportsDocument />
+            <BPMSummaryReports />
           </div>
         </div>
       </div>
