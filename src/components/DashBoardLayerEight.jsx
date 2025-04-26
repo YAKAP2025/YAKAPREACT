@@ -9,7 +9,6 @@ import PatientVisitedDepartment from "./child/PatientVisitedbyDepartment";
 import PatientVisitByGender from "./child/PatientVisitByGender";
 import TopPerformanceTwo from "./child/TopPerformanceTwo";
 import LatestAppointmentsOne from "./child/LatestAppointmentsOne";
-//import TotalIncome from "./child/TotalIncome";
 import Last24hBPM from "./child/Last24hBPM";
 import BPMSummaryReports from "./child/BPMSummaryReports";
 
