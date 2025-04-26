@@ -10,7 +10,7 @@ import PatientVisitByGender from "./child/PatientVisitByGender";
 import TopPerformanceTwo from "./child/TopPerformanceTwo";
 import LatestAppointmentsOne from "./child/LatestAppointmentsOne";
 //import TotalIncome from "./child/TotalIncome";
-import AvailableTreatments from "./child/AvailableTreatments";
+import Last24hBPM from "./child/Last24hBPM";
 import HealthReportsDocument from "./child/HealthReportsDocument";
 
 const DashBoardLayerEight = () => {
@@ -37,7 +37,7 @@ const DashBoardLayerEight = () => {
         <div className="col-xxxl-3">
           <div className="row gy-4">
             <BPMDonut  />
-            <AvailableTreatments />
+            <Last24hBPM />
             <HealthReportsDocument />
           </div>
         </div>
