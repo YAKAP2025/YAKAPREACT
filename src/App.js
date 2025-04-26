@@ -119,7 +119,9 @@ function App() {
         <Route exact path='/index-10' element={<HomePageTen />} />
         <Route exact path='/index-11' element={<HomePageEleven />} /> */}
 
-        <Route exact path='/index-8' element={<HomePageEight />} /> 
+      {/*  <Route exact path='/index-8' element={<HomePageEight />} /> */}
+
+            { <Route exact path='/' element={<HomePageEight />} /> }
 
         {/* SL */}
          {/*
