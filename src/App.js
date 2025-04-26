@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePageOne from "./pages/HomePageOne";
-import HomePageTwo from "./pages/HomePageTwo";
+//import HomePageOne from "./pages/HomePageOne";
+/* import HomePageTwo from "./pages/HomePageTwo";
 import HomePageThree from "./pages/HomePageThree";
 import HomePageFour from "./pages/HomePageFour";
 import HomePageFive from "./pages/HomePageFive";
@@ -79,10 +79,14 @@ import VoiceGeneratorPage from "./pages/VoiceGeneratorPage";
 import WalletPage from "./pages/WalletPage";
 import WidgetsPage from "./pages/WidgetsPage";
 import WizardPage from "./pages/WizardPage";
-import RouteScrollToTop from "./helper/RouteScrollToTop";
+
+
+
 import TextGeneratorNewPage from "./pages/TextGeneratorNewPage";
+*/
+import RouteScrollToTop from "./helper/RouteScrollToTop";
 import HomePageEight from "./pages/HomePageEight";
-import HomePageNine from "./pages/HomePageNine";
+/* import HomePageNine from "./pages/HomePageNine";
 import HomePageTen from "./pages/HomePageTen";
 import HomePageEleven from "./pages/HomePageEleven";
 import GalleryGridPage from "./pages/GalleryGridPage";
@@ -95,7 +99,7 @@ import TestimonialsPage from "./pages/TestimonialsPage";
 import ComingSoonPage from "./pages/ComingSoonPage";
 import AccessDeniedPage from "./pages/AccessDeniedPage";
 import MaintenancePage from "./pages/MaintenancePage";
-import BlankPagePage from "./pages/BlankPagePage";
+import BlankPagePage from "./pages/BlankPagePage"; */
 
 
 function App() {
@@ -103,19 +107,22 @@ function App() {
     <BrowserRouter>
       <RouteScrollToTop />
       <Routes>
-        <Route exact path='/' element={<HomePageOne />} />
+        {/* <Route exact path='/' element={<HomePageOne />} /> 
         <Route exact path='/index-2' element={<HomePageTwo />} />
         <Route exact path='/index-3' element={<HomePageThree />} />
         <Route exact path='/index-4' element={<HomePageFour />} />
         <Route exact path='/index-5' element={<HomePageFive />} />
         <Route exact path='/index-6' element={<HomePageSix />} />
         <Route exact path='/index-7' element={<HomePageSeven />} />
-        <Route exact path='/index-8' element={<HomePageEight />} />
+       
         <Route exact path='/index-9' element={<HomePageNine />} />
         <Route exact path='/index-10' element={<HomePageTen />} />
-        <Route exact path='/index-11' element={<HomePageEleven />} />
+        <Route exact path='/index-11' element={<HomePageEleven />} /> */}
+
+        <Route exact path='/index-8' element={<HomePageEight />} /> 
 
         {/* SL */}
+         {/*
         <Route exact path='/add-user' element={<AddUserPage />} />
         <Route exact path='/alert' element={<AlertPage />} />
         <Route exact path='/assign-role' element={<AssignRolePage />} />
@@ -223,6 +230,7 @@ function App() {
         <Route exact path='/wizard' element={<WizardPage />} />
 
         <Route exact path='*' element={<ErrorPage />} />
+        */}
       </Routes>
     </BrowserRouter>
   );

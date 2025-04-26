@@ -3,7 +3,7 @@ import MasterLayout from "../masterLayout/MasterLayout";
 import Breadcrumb from "../components/Breadcrumb";
 import DashBoardLayerOne from "../components/DashBoardLayerOne";
 
-const HomePageOne = () => {
+//const HomePageOne = () => {
   return (
     <>
       {/* MasterLayout */}
@@ -18,6 +18,6 @@ const HomePageOne = () => {
       </MasterLayout>
     </>
   );
-};
+//};
 
-export default HomePageOne;
+//export default HomePageOne;
