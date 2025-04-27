@@ -11,6 +11,7 @@ import TopPerformanceTwo from "./child/TopPerformanceTwo";
 import LatestAppointmentsOne from "./child/LatestAppointmentsOne";
 import Last24hBPM from "./child/Last24hBPM";
 import BPMSummaryReports from "./child/BPMSummaryReports";
+import PatientProfile from '../components/PatientProfile';
 
 const DashBoardLayerEight = () => {
   return (
@@ -18,6 +19,7 @@ const DashBoardLayerEight = () => {
       <div className="row gy-4">
         <div className="col-xxxl-9">
           <div className="row gy-4">
+          <PatientProfile />
             {/* You can choose either the line chart or the area chart, or both */}
             <BPMDisplay />
             <BPMChartLine />
