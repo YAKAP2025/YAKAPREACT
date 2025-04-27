@@ -5,7 +5,7 @@ import ECGWaveformChart from "./child/ECGWaveformChart"; // Option 2: Area chart
 import BPMDonut from "./child/BPMDonut"; // The new donut-based BPM chart / updated for FECG V2
 import BPMMetricsOverview from "./child/BPMMetricsOverview";
 import BPMStatistic from "./child/BPMStatistic";
-import PatientVisitedDepartment from "./child/PatientVisitedbyDepartment";
+import BPMDistributionChart from "./child/BPMDistributionChart";
 import PatientVisitByGender from "./child/PatientVisitByGender";
 import TopPerformanceTwo from "./child/TopPerformanceTwo";
 import LatestAppointmentsOne from "./child/LatestAppointmentsOne";
@@ -27,7 +27,7 @@ const DashBoardLayerEight = () => {
             }
             <BPMMetricsOverview />
             <BPMStatistic />
-            <PatientVisitedDepartment />
+            <BPMDistributionChart />
             <PatientVisitByGender />
             <TopPerformanceTwo />
             <LatestAppointmentsOne />
