@@ -6,7 +6,7 @@ import BPMDonut from "./child/BPMDonut"; // The new donut-based BPM chart / upda
 import BPMMetricsOverview from "./child/BPMMetricsOverview";
 import BPMStatistic from "./child/BPMStatistic";
 import BPMDistributionChart from "./child/BPMDistributionChart";
-import PatientVisitByGender from "./child/PatientVisitByGender";
+import LeadOffTimelineChart from './child/LeadOffTimelineChart';
 import TopPerformanceTwo from "./child/TopPerformanceTwo";
 import LatestAppointmentsOne from "./child/LatestAppointmentsOne";
 import Last24hBPM from "./child/Last24hBPM";
@@ -21,14 +21,14 @@ const DashBoardLayerEight = () => {
             {/* You can choose either the line chart or the area chart, or both */}
             <BPMDisplay />
             <BPMChartLine />
+            <BPMMetricsOverview />
             {/* Or to use the area chart, comment out the line chart and uncomment below: */}
             {
             <ECGWaveformChart />
             }
-            <BPMMetricsOverview />
             <BPMStatistic />
+            <LeadOffTimelineChart />
             <BPMDistributionChart />
-            <PatientVisitByGender />
             <TopPerformanceTwo />
             <LatestAppointmentsOne />
           </div>
