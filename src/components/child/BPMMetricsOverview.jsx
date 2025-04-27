@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { differenceInHours, parseISO } from 'date-fns';
+import { parseISO } from 'date-fns';
 
 const BPMMetricsOverview = () => {
   const [metrics, setMetrics] = useState({
@@ -74,7 +74,6 @@ const BPMMetricsOverview = () => {
               </div>
             </div>
             <p className="text-sm mb-0">
-              {/** no delta for total **/}
               <span className="text-primary-600">Updated</span> just now
             </p>
           </div>
