@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 // Global in-memory variables
 let latestSensorData = null;
-const sensorHistory = [];  // store all submissions
+const sensorHistory = [];  // store every submission
 
 // Endpoint to receive sensor data from the device
 app.post('/api/submitData', (req, res) => {
@@ -36,19 +36,21 @@ app.get('/api/getData', (req, res) => {
   res.status(200).json(latestSensorData);
 });
 
-// New endpoint: lead-off detection events in the last 24 hours
+// NEW — Endpoint to retrieve *all* sensor readings
+app.get('/api/getAllData', (req, res) => {
+  res.status(200).json(sensorHistory);
+});
+
+// Endpoint to retrieve lead-off detection events in the last 24 hours
 app.get('/api/leadOffEvents', (req, res) => {
   try {
     const sinceTimestamp = Date.now() - 24 * 60 * 60 * 1000; // 24 hrs ago
     const events = sensorHistory
-      .filter(
-        (entry) =>
-          entry.leadOff === true &&
-          new Date(entry.timestamp).getTime() >= sinceTimestamp
+      .filter(entry =>
+        entry.leadOff === true &&
+        new Date(entry.timestamp).getTime() >= sinceTimestamp
       )
-      .map((entry) => ({
-        timestamp: entry.timestamp,
-      }));
+      .map(entry => ({ timestamp: entry.timestamp }));
 
     res.status(200).json(events);
   } catch (err) {

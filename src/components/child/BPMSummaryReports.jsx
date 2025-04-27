@@ -1,4 +1,4 @@
-// src/components/BPMSummaryReports.jsx
+// src/components/child/BPMSummaryReports.jsx
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -12,13 +12,13 @@ const BPMSummaryReports = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get('http://localhost:5001/api/getData');
+        const res = await axios.get('http://localhost:5001/api/getAllData');
         const data = res.data || [];
         setReadings(data);
 
         // Compute stats
         if (data.length) {
-          const bpms = data.map(r => r.bpm);
+          const bpms = data.map(r => Number(r.bpm));
           const sum = bpms.reduce((a, b) => a + b, 0);
           setStats({
             count: data.length,
@@ -37,13 +37,10 @@ const BPMSummaryReports = () => {
   // Build & download CSV
   const downloadCSV = () => {
     if (!readings.length) return;
-    // Header row
     const header = ['deviceId','bpm','timestamp'];
-    // Data rows
     const rows = readings.map(r => [
       r.deviceId,
       r.bpm,
-      // ensure ISO string
       format(new Date(r.timestamp), "yyyy-MM-dd'T'HH:mm:ssxxx")
     ]);
     const csvContent = [
@@ -51,12 +48,10 @@ const BPMSummaryReports = () => {
       ...rows.map(r => r.join(','))
     ].join('\n');
 
-    // Create a blob & download link
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    // Filename with timestamp
     a.download = `bpm_summary_${format(new Date(), 'yyyyMMdd_HHmmss')}.csv`;
     document.body.appendChild(a);
     a.click();
